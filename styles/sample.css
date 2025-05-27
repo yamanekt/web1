@@ -1,0 +1,35 @@
+h1 { 
+	color: #4926e9; 
+    /*カラーコードは 16進数（4ビット）
+    0000に行くほど彩度が上がる。#まで消してyellow のように名前でもいい
+    RGB(赤、青、緑)が6桁の数字になっていて
+    40 00 ff
+    赤 青 緑になっている*/
+}
+/*もし<p>タグにつけたら両方とも色が変化するが、id属性を指定することで*/
+#front {
+	color: #ff0000;
+}
+#back {
+	color: #eefe00;
+}
+.head {
+	color: #00ff00;
+}
+header p{
+	font-size: 30px;/*文字の大きさ*/
+}
+header {
+	font-family: serif;/*文字フォント*/
+}
+.section1 {
+  font-size: 20px;
+  line-height: 16px;
+}
+.section2 {
+  font-size: 20px;
+  line-height: 1.8;
+}
+p {
+	text-indent: 16px;
+}
