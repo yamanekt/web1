@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(71, 182, 182);
+    background-image: url(../images/rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div {
+    border: 1px dotted #333;
+}
+p {
+    border: 1px solid tomato;
+    margin: 50px;/*外側*/
+    padding: 50px;/*内側*/
+}

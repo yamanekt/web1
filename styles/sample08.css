@@ -1,0 +1,33 @@
+#box1{
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    border:solid 5px black;
+    box-sizing: border-box;
+    overflow: auto;
+}
+#box2{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border:solid 5px black;
+    box-sizing: content-box;
+}
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: coral;
+  margin: 20px;
+  height: 200px;
+}
+
+.child {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
