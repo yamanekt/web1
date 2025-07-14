@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formの練習</h1>
+    <form action="http://127.0.0.1:5500/kadai10_1.html" method="get">
+        <div><label for="text1">名前：</label><input type="text" name="text1" placeholder="山根 恵太"></div>
+        <div><label for="text2">住所：</label><input type="text" name="text2" placeholder="大阪府 大阪市 北区 中崎町"></div>
+        <div><label for="pass">パスワード</label><input type="password" name="pass" placeholder="password"></div>
+        <div><label for="mail">メールアドレス</label><input type="email" name="mail" placeholder="mailAddress@example.com"
+                </div>
+
+            <p>好きな言語は？</p>
+            <!--labelが同じ物から選ばれる。選ばれたものがvalueに設定した値として返ってくる-->
+            <div>
+                <label for="lang">java</label><input type="radio" name="lang" value="1" <label
+                    for="lang">C言語</label><input type="radio" name="lang" value="2" <label
+                    for="lang">GoLang</label><input type="radio" name="lang" value="3" </div>
+
+
+                <div>
+                    <label for="subject">国語</label><input type="checkbox" name="subject" value="1" 
+                     <label for="subject">数学</label><input type="checkbox" name="subject" value="2" 
+                      <label for="subject">理科</label><input type="checkbox" name="subject" value="3" 
+                </div>
+                    <button type="submit">送信</button>
+    </form>
+</body>
+
+</html>
